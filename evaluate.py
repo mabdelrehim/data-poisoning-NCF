@@ -14,6 +14,20 @@ def ndcg(gt_item, pred_items):
 		return np.reciprocal(np.log2(index+2))
 	return 0
 
+def poison_metric(model, test_loader, top_k, promoted_item):
+	POISON_HR = []
+	for user, item, label in test_loader:
+		user = user.cuda()
+		item = item.cuda()
+
+		predictions = model(user, item)
+		_, indices = torch.topk(predictions, top_k)
+		recommends = torch.take(
+				item, indices).cpu().numpy().tolist()
+
+		POISON_HR.append(hit(promoted_item, recommends))
+	return np.mean(POISON_HR)
+
 
 def metrics(model, test_loader, top_k):
 	HR, NDCG = [], []

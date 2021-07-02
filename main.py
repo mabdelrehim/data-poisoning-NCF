@@ -9,6 +9,10 @@ import torch.optim as optim
 import torch.utils.data as data
 import torch.backends.cudnn as cudnn
 from tensorboardX import SummaryWriter
+from tqdm import tqdm
+from torch.nn.parallel import DistributedDataParallel as DDP
+import torch.multiprocessing as mp
+import torch.distributed as dist
 
 import model
 import config
@@ -60,9 +64,12 @@ parser.add_argument("--gpu",
 	type=str,
 	default="0",  
 	help="gpu card ID")
+
+
 args = parser.parse_args()
 
 os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+
 cudnn.benchmark = True
 
 
@@ -72,15 +79,15 @@ train_data, test_data, user_num ,item_num, train_mat = data_utils.load_all()
 # construct the train and test datasets
 train_dataset = data_utils.NCFData(
 		train_data, item_num, train_mat, args.num_ng, True)
+train_loader = data.DataLoader(train_dataset,
+		batch_size=args.batch_size, shuffle=True, num_workers=40)
 test_dataset = data_utils.NCFData(
 		test_data, item_num, train_mat, 0, False)
-train_loader = data.DataLoader(train_dataset,
-		batch_size=args.batch_size, shuffle=True, num_workers=4)
 test_loader = data.DataLoader(test_dataset,
 		batch_size=args.test_num_ng+1, shuffle=False, num_workers=0)
 
 ########################### CREATE MODEL #################################
-if config.model == 'NeuMF-pre':
+if config.model_name == 'NeuMF-pre':
 	assert os.path.exists(config.GMF_model_path), 'lack of GMF model'
 	assert os.path.exists(config.MLP_model_path), 'lack of MLP model'
 	GMF_model = torch.load(config.GMF_model_path)
