@@ -81,6 +81,7 @@ KAPPA = 1
 LAMBDA = 0.01
 EITA = 100
 DELTA = 0.3
+PROMOTED_ITEM = 121
 
 
 def prepare_data(args, train_data, test_data, train_mat, item_num):
@@ -115,30 +116,46 @@ def create_model(args):
     else:
 	    optimizer = optim.Adam(model.parameters(), lr=args.lr)
     return model, optimizer
+		
 
-def bce_loss(args, predictions, labels):
-    total_bce_loss = torch.sum(-labels * torch.log(predictions) - (1 - labels) * torch.log(1 - predictions))
-    # Getting the mean BCE loss
-    num_of_samples = predictions.shape[0]
-    mean_bce_loss = total_bce_loss / num_of_samples
-    return mean_bce_loss
-
-def poison_loss(args, users, items, predictions, labels, lambda, eita):
-	total_bce_loss = torch.sum(-labels * torch.log(predictions) - (1 - labels) * torch.log(1 - predictions))
-    # Getting the mean BCE loss
-	num_of_samples = predictions.shape[0]
-	mean_bce_loss = total_bce_loss / num_of_samples
+def poison_loss(args, users, fake_user, items, promoted_item, predictions, labels, _lambda, eita, kappa):
+	
+	total_bce_loss = F.binary_cross_entropy(torch.sigmoid(predictions), labels, reduction='sum')
 
 	# get predictions per user
 	unique_users = torch.unique(users)
-	user_loss = 0
+	users_loss = 0
+	num_unique_users = 0
 	for user in unique_users:
-		b = users == user
-		indices = b.nonzero()
+		
+		# get predictions and corresponding items for each user
+		indices = (users == user).nonzero().squeeze()
 		user_predictions = torch.index_select(predictions, 0, indices)
 		user_items = torch.index_select(items, 0, indices)
+		user_labels = torch.index_select(labels, 0, indices)
+		log_min_prediction = torch.log(torch.min(user_predictions)).item()
+		
+		# only consider users who have not rated promoted item yet
+		indices = (user_items == promoted_item).nonzero()
+		# print("indeces:",indices)
+		if len(indices) != 0 and user_labels[indices[0].item()] > 0:
+			continue
+		
+		if len((user_items==promoted_item).nonzero()) == 0:
+			log_prob_tgt_item = 0
+		else:
+			log_prob_tgt_item = torch.log(user_predictions[(user_items==promoted_item).nonzero()[0].item()])
+		
+		user_loss = torch.max(torch.Tensor([log_min_prediction - log_prob_tgt_item, -1*kappa])).item()
+		users_loss += user_loss
+		num_unique_users += 1
 	
-	return mean_bce_loss + lambda*mean_poison_loss
+	u = users == fake_user
+	indices = u.nonzero().squeeze()
+	fake_user_vector = torch.index_select(predictions, 0, indices)
+	fake_user_l2_norm = torch.linalg.vector_norm(fake_user_vector)
+	poison_loss = torch.pow(fake_user_l2_norm, 2) + eita*users_loss
+	return total_bce_loss + _lambda*poison_loss
 
 ##############################  PREPARE DATASET ##########################
 train_data, test_data, user_num ,item_num, train_mat = data_utils.load_all()
