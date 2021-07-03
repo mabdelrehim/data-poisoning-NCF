@@ -20,6 +20,7 @@ import model
 import config
 import evaluate
 import data_utils
+import random
 
 
 
@@ -34,7 +35,7 @@ parser.add_argument("--dropout",
 	help="dropout rate")
 parser.add_argument("--batch_size", 
 	type=int, 
-	default=256, 
+	default=4096, 
 	help="batch size for training")
 parser.add_argument("--epochs", 
 	type=int,
@@ -63,25 +64,11 @@ parser.add_argument("--test_num_ng",
 parser.add_argument("--out", 
 	default=True,
 	help="save model or not")
-parser.add_argument("--gpu", 
-	type=str,
-	default="0",  
-	help="gpu card ID")
-parser.add_argument("--fake_users", 
-	type=int,
-	default=302,  
-	help="number of inserted fake users (default is 302 which is 5% of the total number of users)")
+
 
 args = parser.parse_args()
-os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
 cudnn.benchmark = True
 # writer = SummaryWriter() # for visualization
-
-KAPPA = 1
-LAMBDA = 0.01
-EITA = 100
-DELTA = 0.3
-PROMOTED_ITEM = 121
 
 
 def prepare_data(args, train_data, test_data, train_mat, item_num):
@@ -96,6 +83,7 @@ def prepare_data(args, train_data, test_data, train_mat, item_num):
 		batch_size=args.test_num_ng+1, shuffle=False, num_workers=0)
 
     return train_loader, test_loader
+
 
 def create_model(args):
     if config.model_name == 'NeuMF-pre':
@@ -117,6 +105,10 @@ def create_model(args):
 	    optimizer = optim.Adam(model.parameters(), lr=args.lr)
     return model, optimizer
 		
+
+def bce_loss_with_logits(predictions, labels):
+	return F.binary_cross_entropy(torch.sigmoid(predictions), labels, reduction='sum')
+
 
 def poison_loss(args, users, fake_user, items, promoted_item, predictions, labels, _lambda, eita, kappa):
 	
@@ -141,8 +133,10 @@ def poison_loss(args, users, fake_user, items, promoted_item, predictions, label
 		if len(indices) != 0 and user_labels[indices[0].item()] > 0:
 			continue
 		
+		# promoted item not in gt labels in for this user
 		if len((user_items==promoted_item).nonzero()) == 0:
-			log_prob_tgt_item = 0
+			# log_prob_tgt_item = 0 (not correct and using log(0) would cause loss to explode)
+			continue
 		else:
 			log_prob_tgt_item = torch.log(user_predictions[(user_items==promoted_item).nonzero()[0].item()])
 		
@@ -157,8 +151,83 @@ def poison_loss(args, users, fake_user, items, promoted_item, predictions, label
 	poison_loss = torch.pow(fake_user_l2_norm, 2) + eita*users_loss
 	return total_bce_loss + _lambda*poison_loss
 
-##############################  PREPARE DATASET ##########################
+
+def train(args, model, optimizer, train_loader, loss_function, test_loader):
+	count, best_hr = 0, 0
+	for epoch in range(args.epochs):
+		model.train() # Enable dropout (if have).
+		start_time = time.time()
+		train_loader.dataset.ng_sample()
+
+		for user, item, label in train_loader:
+			user = user.cuda()
+			item = item.cuda()
+			label = label.float().cuda()
+
+			model.zero_grad()
+			prediction = model(user, item)
+			loss = loss_function(prediction, label)
+			loss.backward()
+			optimizer.step()
+			# writer.add_scalar('data/loss', loss.item(), count)
+			count += 1
+
+		model.eval()
+		HR, NDCG = evaluate.metrics(model, test_loader, args.top_k)
+
+		elapsed_time = time.time() - start_time
+		print("The time elapse of epoch {:03d}".format(epoch) + " is: " + 
+				time.strftime("%H: %M: %S", time.gmtime(elapsed_time)))
+		print("HR: {:.3f}\tNDCG: {:.3f}".format(np.mean(HR), np.mean(NDCG)))
+
+		if HR > best_hr:
+			best_hr, best_ndcg, best_epoch = HR, NDCG, epoch
+			if args.out:
+				if not os.path.exists(config.model_path):
+					os.mkdir(config.model_path)
+				torch.save(model, 
+					'{}{}.pth'.format(config.model_path, config.model))
+
+	print("End. Best epoch {:03d}: HR = {:.3f}, NDCG = {:.3f}".format(
+										best_epoch, best_hr, best_ndcg))
+
+
+def insert_fake_tuple(tuple, train_data, train_mat, value):
+	train_mat[tuple[0], tuple[1]] = value
+	train_data.append([tuple[0], tuple[1]])
+	return train_data, train_mat
+
+
+##############################	LOAD DATA		##########################
 train_data, test_data, user_num ,item_num, train_mat = data_utils.load_all()
-##############################  CREATE MODEL    ##########################
 
+##############################  CREATE MODEL	##########################
+if config.model_name == 'NeuMF-pre':
+	assert os.path.exists(config.GMF_model_path), 'lack of GMF model'
+	assert os.path.exists(config.MLP_model_path), 'lack of MLP model'
+	GMF_model = torch.load(config.GMF_model_path)
+	MLP_model = torch.load(config.MLP_model_path)
+else:
+	GMF_model = None
+	MLP_model = None
 
+model = model.NCF(user_num, item_num, args.factor_num, args.num_layers, 
+						args.dropout, config.model, GMF_model, MLP_model)
+model.cuda()
+
+if config.model == 'NeuMF-pre':
+	optimizer = optim.SGD(model.parameters(), lr=args.lr)
+else:
+	optimizer = optim.Adam(model.parameters(), lr=args.lr)
+
+##############################  SET PARAMETERS	##########################
+
+KAPPA = 1
+LAMBDA = 0.01
+EITA = 100
+DELTA = 0.3
+PROMOTED_ITEM = random.randint(0, item_num) 		# select a random item to be promoted
+M = 302 											# 5% of the number of users in the dataset 
+N = 30
+
+selection_prob_vec = np.ones(item_num)

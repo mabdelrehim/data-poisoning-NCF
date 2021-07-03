@@ -29,8 +29,12 @@ def poison_metric(model, test_loader, top_k, promoted_item):
 	return np.mean(POISON_HR)
 
 
-def metrics(model, test_loader, top_k):
+def metrics(model, test_loader, top_k, poison_metric=False, promoted_item=None):
 	HR, NDCG = [], []
+
+	if poison_metric:
+		POISON_HR = []
+		assert promoted_item is not None, "We have to specify a promoted item if we want to calculate poison hit rate"
 
 	for user, item, label in test_loader:
 		user = user.cuda()
@@ -44,5 +48,11 @@ def metrics(model, test_loader, top_k):
 		gt_item = item[0].item()
 		HR.append(hit(gt_item, recommends))
 		NDCG.append(ndcg(gt_item, recommends))
-
-	return np.mean(HR), np.mean(NDCG)
+		if poison_metric:
+			POISON_HR.append(hit(promoted_item, recommends))
+	
+	
+	if poison_metric:
+		return np.mean(HR), np.mean(NDCG), np.mean(POISON_HR)
+	else:
+		return np.mean(HR), np.mean(NDCG)
