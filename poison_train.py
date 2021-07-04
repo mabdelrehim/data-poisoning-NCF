@@ -152,7 +152,7 @@ def poison_loss(args, users, fake_user, items, promoted_item, predictions, label
 	return total_bce_loss + _lambda*poison_loss
 
 
-def train(args, model, optimizer, train_loader, loss_function, test_loader):
+def train(args, model, optimizer, train_loader, test_loader, loss_function, poison=False, promoted_item=None):
 	count, best_hr = 0, 0
 	for epoch in range(args.epochs):
 		model.train() # Enable dropout (if have).
@@ -191,8 +191,10 @@ def train(args, model, optimizer, train_loader, loss_function, test_loader):
 	print("End. Best epoch {:03d}: HR = {:.3f}, NDCG = {:.3f}".format(
 										best_epoch, best_hr, best_ndcg))
 
+	return model
 
-def insert_fake_tuple(tuple, train_data, train_mat, value):
+
+def insert_fake_tuple(train_data, train_mat, tuple, value):
 	train_mat[tuple[0], tuple[1]] = value
 	train_data.append([tuple[0], tuple[1]])
 	return train_data, train_mat
@@ -211,9 +213,9 @@ else:
 	GMF_model = None
 	MLP_model = None
 
-model = model.NCF(user_num, item_num, args.factor_num, args.num_layers, 
+model_ncf = model.NCF(user_num, item_num, args.factor_num, args.num_layers, 
 						args.dropout, config.model, GMF_model, MLP_model)
-model.cuda()
+model_ncf.cuda()
 
 if config.model == 'NeuMF-pre':
 	optimizer = optim.SGD(model.parameters(), lr=args.lr)
@@ -231,3 +233,30 @@ M = 302 											# 5% of the number of users in the dataset
 N = 30
 
 selection_prob_vec = np.ones(item_num)
+
+# iterate over each one of the fake users
+for i in range(N):
+
+	print("#############################################################################")
+	print(f"##########################	INSERTING FAKE USER	{i}	#########################")
+	print("#############################################################################")
+	print()
+
+	# first insert tuple (user, promoted_item, r_max=1)
+	train_data, train_mat = insert_fake_tuple(train_data, train_mat, tuple=(i, PROMOTED_ITEM), value=1)
+
+	# construct train and test data loaders
+	train_dataset = data_utils.NCFData(
+		train_data, item_num, train_mat, args.num_ng, True)
+	train_loader = data.DataLoader(train_dataset,
+		batch_size=args.batch_size, shuffle=True, num_workers=40)
+	test_dataset = data_utils.NCFData(
+		test_data, item_num, train_mat, 0, False)
+	test_loader = data.DataLoader(test_dataset,
+		batch_size=args.test_num_ng+1, shuffle=False, num_workers=0)
+
+	# pretrain poison model with loss function L (bce loss)
+	model_ncf = train(args, model_ncf, optimizer, train_loader, test_loader, loss_function=bce_loss_with_logits)
+
+	# poison train the model with the poison loss function
+
