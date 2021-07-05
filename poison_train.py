@@ -153,7 +153,7 @@ def poison_loss(args, users, fake_user, items, promoted_item, predictions, label
 
 
 def train(args, model, optimizer, train_loader, test_loader, loss_function, poison=False, promoted_item=None):
-	count, best_hr = 0, 0
+	count, best_hr, best_poison_hr, hr_with_best_poison= 0, 0, 0, 0
 	for epoch in range(args.epochs):
 		model.train() # Enable dropout (if have).
 		start_time = time.time()
@@ -172,23 +172,45 @@ def train(args, model, optimizer, train_loader, test_loader, loss_function, pois
 			# writer.add_scalar('data/loss', loss.item(), count)
 			count += 1
 
-		model.eval()
-		HR, NDCG = evaluate.metrics(model, test_loader, args.top_k)
+		if poison:
+			model.eval()
+			HR, NDCG, POISON_HR = evaluate.metrics(model, test_loader, args.top_k, poison_metric=True, promoted_item=promoted_item)
 
-		elapsed_time = time.time() - start_time
-		print("The time elapse of epoch {:03d}".format(epoch) + " is: " + 
-				time.strftime("%H: %M: %S", time.gmtime(elapsed_time)))
-		print("HR: {:.3f}\tNDCG: {:.3f}".format(np.mean(HR), np.mean(NDCG)))
+			elapsed_time = time.time() - start_time
+			print("The time elapse of epoch {:03d}".format(epoch) + " is: " + 
+					time.strftime("%H: %M: %S", time.gmtime(elapsed_time)))
+			print("HR: {:.3f}\tNDCG: {:.3f}\tPOISON_HR: {:.3f}\t".format(np.mean(HR), np.mean(NDCG), np.mean(POISON_HR)))
 
-		if HR > best_hr:
-			best_hr, best_ndcg, best_epoch = HR, NDCG, epoch
-			if args.out:
-				if not os.path.exists(config.model_path):
-					os.mkdir(config.model_path)
-				torch.save(model, 
-					'{}{}.pth'.format(config.model_path, config.model))
+			if POISON_HR > best_poison_hr:
+				hr_with_best_poison, best_poison_hr, best_ndcg, best_epoch = HR, POISON_HR, NDCG, epoch
+				if args.out:
+					if not os.path.exists(config.model_path):
+						os.mkdir(config.model_path)
+					torch.save(model, 
+						'{}{}.pth'.format(config.model_path, config.model))
+		else:
+			model.eval()
+			HR, NDCG = evaluate.metrics(model, test_loader, args.top_k)
 
-	print("End. Best epoch {:03d}: HR = {:.3f}, NDCG = {:.3f}".format(
+			elapsed_time = time.time() - start_time
+			print("The time elapse of epoch {:03d}".format(epoch) + " is: " + 
+					time.strftime("%H: %M: %S", time.gmtime(elapsed_time)))
+			print("HR: {:.3f}\tNDCG: {:.3f}".format(np.mean(HR), np.mean(NDCG)))
+
+			if HR > best_hr:
+				best_hr, best_ndcg, best_epoch = HR, NDCG, epoch
+				if args.out:
+					if not os.path.exists(config.model_path):
+						os.mkdir(config.model_path)
+					torch.save(model, 
+						'{}{}.pth'.format(config.model_path, config.model))
+
+	
+	if poison:
+		print("End. Best epoch {:03d}: HR = {:.3f}, NDCG = {:.3f}, POISON_HR = {:.3f}".format(
+										best_epoch, hr_with_best_poison, best_ndcg, best_poison_hr))
+	else:
+		print("End. Best epoch {:03d}: HR = {:.3f}, NDCG = {:.3f}".format(
 										best_epoch, best_hr, best_ndcg))
 
 	return model
@@ -238,7 +260,7 @@ selection_prob_vec = np.ones(item_num)
 for i in range(N):
 
 	print("#############################################################################")
-	print(f"##########################	INSERTING FAKE USER	{i}	#########################")
+	print(f"#######################\t\tINSERTING FAKE USER {i}\t\t#######################")
 	print("#############################################################################")
 	print()
 
@@ -259,4 +281,4 @@ for i in range(N):
 	model_ncf = train(args, model_ncf, optimizer, train_loader, test_loader, loss_function=bce_loss_with_logits)
 
 	# poison train the model with the poison loss function
-
+	model_ncf = train(args, model_ncf, optimizer, train_loader, test_loader, loss_function=bce_loss_with_logits, poison=True, promoted_item=PROMOTED_ITEM)
