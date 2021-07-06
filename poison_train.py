@@ -9,7 +9,7 @@ from torch.nn.modules import loss
 import torch.optim as optim
 import torch.utils.data as data
 import torch.backends.cudnn as cudnn
-from tensorboardX import SummaryWriter
+# from tensorboardX import SummaryWriter
 from tqdm import tqdm
 from torch.nn.parallel import DistributedDataParallel as DDP
 import torch.multiprocessing as mp
@@ -39,7 +39,7 @@ parser.add_argument("--batch_size",
 	help="batch size for training")
 parser.add_argument("--epochs", 
 	type=int,
-	default=20,  
+	default=10,  
 	help="training epochs")
 parser.add_argument("--top_k", 
 	type=int, 
@@ -96,10 +96,10 @@ def create_model(args):
 	    MLP_model = None
 
     model = model.NCF(user_num, item_num, args.factor_num, args.num_layers, 
-						args.dropout, config.model, GMF_model, MLP_model)
+						args.dropout, config.model_name, GMF_model, MLP_model)
     model.cuda()
 
-    if config.model == 'NeuMF-pre':
+    if config.model_name == 'NeuMF-pre':
 	    optimizer = optim.SGD(model.parameters(), lr=args.lr)
     else:
 	    optimizer = optim.Adam(model.parameters(), lr=args.lr)
@@ -110,7 +110,7 @@ def bce_loss_with_logits(predictions, labels):
 	return F.binary_cross_entropy(torch.sigmoid(predictions), labels, reduction='sum')
 
 
-def poison_loss(args, users, fake_user, items, promoted_item, predictions, labels, _lambda, eita, kappa):
+def poison_loss(users, fake_user, items, promoted_item, predictions, labels, _lambda, eita, kappa):
 	
 	total_bce_loss = F.binary_cross_entropy(torch.sigmoid(predictions), labels, reduction='sum')
 
@@ -152,21 +152,26 @@ def poison_loss(args, users, fake_user, items, promoted_item, predictions, label
 	return total_bce_loss + _lambda*poison_loss
 
 
-def train(args, model, optimizer, train_loader, test_loader, loss_function, poison=False, promoted_item=None):
+def train(args, model, optimizer, train_loader, test_loader, loss_function, num_epochs, poison=False, promoted_item=None, fake_user=None, _lambda=None, eita=None, kappa=None):
 	count, best_hr, best_poison_hr, hr_with_best_poison= 0, 0, 0, 0
-	for epoch in range(args.epochs):
+	for epoch in num_epochs:
+		if poison:
+			assert promoted_item is not None and fake_user is not None and _lambda is not None and eita is not None and kappa is not None
 		model.train() # Enable dropout (if have).
 		start_time = time.time()
 		train_loader.dataset.ng_sample()
 
-		for user, item, label in train_loader:
+		for user, item, label in tqdm(train_loader):
 			user = user.cuda()
 			item = item.cuda()
 			label = label.float().cuda()
 
 			model.zero_grad()
 			prediction = model(user, item)
-			loss = loss_function(prediction, label)
+			if poison:
+				loss = loss_function(user, fake_user, item, promoted_item, prediction, label, _lambda, eita, kappa)
+			else:
+				loss = loss_function(prediction, label)
 			loss.backward()
 			optimizer.step()
 			# writer.add_scalar('data/loss', loss.item(), count)
@@ -187,7 +192,7 @@ def train(args, model, optimizer, train_loader, test_loader, loss_function, pois
 					if not os.path.exists(config.model_path):
 						os.mkdir(config.model_path)
 					torch.save(model, 
-						'{}{}.pth'.format(config.model_path, config.model))
+						'{}{}.pth'.format(config.model_path, config.model_name))
 		else:
 			model.eval()
 			HR, NDCG = evaluate.metrics(model, test_loader, args.top_k)
@@ -203,7 +208,7 @@ def train(args, model, optimizer, train_loader, test_loader, loss_function, pois
 					if not os.path.exists(config.model_path):
 						os.mkdir(config.model_path)
 					torch.save(model, 
-						'{}{}.pth'.format(config.model_path, config.model))
+						'{}{}.pth'.format(config.model_path, config.model_name))
 
 	
 	if poison:
@@ -236,13 +241,13 @@ else:
 	MLP_model = None
 
 model_ncf = model.NCF(user_num, item_num, args.factor_num, args.num_layers, 
-						args.dropout, config.model, GMF_model, MLP_model)
+						args.dropout, config.model_name, GMF_model, MLP_model)
 model_ncf.cuda()
 
-if config.model == 'NeuMF-pre':
-	optimizer = optim.SGD(model.parameters(), lr=args.lr)
+if config.model_name == 'NeuMF-pre':
+	optimizer = optim.SGD(model_ncf.parameters(), lr=args.lr)
 else:
-	optimizer = optim.Adam(model.parameters(), lr=args.lr)
+	optimizer = optim.Adam(model_ncf.parameters(), lr=args.lr)
 
 ##############################  SET PARAMETERS	##########################
 
@@ -262,14 +267,12 @@ test_loader = data.DataLoader(test_dataset,
 	batch_size=args.test_num_ng+1, shuffle=False, num_workers=0)
 
 selection_prob_vec = torch.from_numpy(np.ones(item_num))
-items_vec = torch.arange(item_num)
-items_vec = items_vec.cuda()
 
 # iterate over each one of the fake users
 for i in range(N):
 
 	print("#############################################################################")
-	print(f"#######################\t\tINSERTING FAKE USER {i}\t\t#######################")
+	print(f"#######################\t\tINSERTING FAKE USER {i}\t\t#############")
 	print("#############################################################################")
 	print()
 
@@ -287,7 +290,8 @@ for i in range(N):
 						model_ncf, 
 						optimizer, 
 						train_loader, 
-						test_loader, 
+						test_loader,
+						num_epochs=20, 
 						loss_function=bce_loss_with_logits)
 
 	# poison train the model with the poison loss function
@@ -296,9 +300,14 @@ for i in range(N):
 						optimizer, 
 						train_loader, 
 						test_loader, 
+						num_epochs=1,
 						loss_function=poison_loss, 
 						poison=True, 
-						promoted_item=PROMOTED_ITEM)
+						promoted_item=PROMOTED_ITEM,
+						fake_user=i,
+						_lambda=LAMBDA,
+						eita=EITA,
+						kappa=KAPPA)
 
 
 
@@ -310,6 +319,9 @@ for i in range(N):
 	model_ncf.eval()
 	user = torch.ones(item_num) * i
 	user = user.cuda()
+	items_vec = torch.arange(item_num)
+	items_vec = torch.IntTensor(items_vec)
+	items_vec = items_vec.cuda()
 	predictions = model_ncf(user, items_vec)
 	predictions = predictions * selection_prob_vec
 	values, indices = torch.topk(predictions, N)
