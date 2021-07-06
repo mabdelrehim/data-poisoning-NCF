@@ -269,7 +269,7 @@ test_loader = data.DataLoader(test_dataset,
 selection_prob_vec = torch.from_numpy(np.ones(item_num))
 
 # iterate over each one of the fake users
-for i in range(N):
+for i in range(M):
 
 	print("#############################################################################")
 	print(f"#########################\tINSERTING FAKE USER {i}\t#########################")
@@ -291,7 +291,7 @@ for i in range(N):
 						optimizer, 
 						train_loader, 
 						test_loader,
-						num_epochs=20, 
+						num_epochs=10, 
 						loss_function=bce_loss_with_logits)
 
 	# poison train the model with the poison loss function
@@ -318,11 +318,13 @@ for i in range(N):
 	# get fake user vector from model
 	model_ncf.eval()
 	user = torch.ones(item_num) * i
-	user = user.cuda()
-	items_vec = torch.arange(item_num)
-	items_vec = torch.IntTensor(items_vec)
+	user = user.int().cuda()
+	items_vec = torch.Tensor([k for k in range(item_num)]).int()
 	items_vec = items_vec.cuda()
 	predictions = model_ncf(user, items_vec)
+	predictions = predictions.cpu()
+	items_vec = items_vec.cpu()
+	user = user.cpu()
 	predictions = predictions * selection_prob_vec
 	values, indices = torch.topk(predictions, N)
 	selection_prob_vec[indices] = selection_prob_vec[indices] * DELTA
