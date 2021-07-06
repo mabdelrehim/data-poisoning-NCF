@@ -154,7 +154,7 @@ def poison_loss(users, fake_user, items, promoted_item, predictions, labels, _la
 
 def train(args, model, optimizer, train_loader, test_loader, loss_function, num_epochs, poison=False, promoted_item=None, fake_user=None, _lambda=None, eita=None, kappa=None):
 	count, best_hr, best_poison_hr, hr_with_best_poison= 0, 0, 0, 0
-	for epoch in num_epochs:
+	for epoch in range(num_epochs):
 		if poison:
 			assert promoted_item is not None and fake_user is not None and _lambda is not None and eita is not None and kappa is not None
 		model.train() # Enable dropout (if have).
@@ -272,7 +272,7 @@ selection_prob_vec = torch.from_numpy(np.ones(item_num))
 for i in range(N):
 
 	print("#############################################################################")
-	print(f"#######################\t\tINSERTING FAKE USER {i}\t\t#############")
+	print(f"#########################\tINSERTING FAKE USER {i}\t#########################")
 	print("#############################################################################")
 	print()
 
