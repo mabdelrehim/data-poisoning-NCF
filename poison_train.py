@@ -186,7 +186,7 @@ def train(args, model, optimizer, train_loader, test_loader, loss_function, num_
 					time.strftime("%H: %M: %S", time.gmtime(elapsed_time)))
 			print("HR: {:.3f}\tNDCG: {:.3f}\tPOISON_HR: {:.3f}\t".format(np.mean(HR), np.mean(NDCG), np.mean(POISON_HR)))
 
-			if POISON_HR > best_poison_hr:
+			if POISON_HR >= best_poison_hr:
 				hr_with_best_poison, best_poison_hr, best_ndcg, best_epoch = HR, POISON_HR, NDCG, epoch
 				if args.out:
 					if not os.path.exists(config.model_path):
