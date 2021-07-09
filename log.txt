@@ -1,0 +1,2293 @@
+#############################################################################
+#########################	INSERTING FAKE USER 0	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.570	NDCG: 0.322
+The time elapse of epoch 001 is: 00: 00: 43
+HR: 0.623	NDCG: 0.358
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.653	NDCG: 0.378
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.674	NDCG: 0.396
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.686	NDCG: 0.406
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.684	NDCG: 0.411
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.680	NDCG: 0.409
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.691	NDCG: 0.418
+The time elapse of epoch 008 is: 00: 00: 41
+HR: 0.688	NDCG: 0.415
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.686	NDCG: 0.417
+End. Best epoch 007: HR = 0.691, NDCG = 0.418
+The time elapse of epoch 000 is: 00: 12: 06
+HR: 0.678	NDCG: 0.408	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.678, NDCG = 0.408, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 1	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.686	NDCG: 0.412
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.676	NDCG: 0.407
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.668	NDCG: 0.402
+The time elapse of epoch 003 is: 00: 00: 41
+HR: 0.669	NDCG: 0.399
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.658	NDCG: 0.394
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.660	NDCG: 0.398
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.658	NDCG: 0.395
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.657	NDCG: 0.392
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.653	NDCG: 0.392
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.649	NDCG: 0.388
+End. Best epoch 000: HR = 0.686, NDCG = 0.412
+The time elapse of epoch 000 is: 00: 12: 11
+HR: 0.650	NDCG: 0.390	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.650, NDCG = 0.390, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 2	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.643	NDCG: 0.386
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.647	NDCG: 0.386
+The time elapse of epoch 002 is: 00: 00: 46
+HR: 0.641	NDCG: 0.381
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.648	NDCG: 0.387
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.642	NDCG: 0.384
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.635	NDCG: 0.378
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.641	NDCG: 0.380
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.633	NDCG: 0.376
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.634	NDCG: 0.379
+The time elapse of epoch 009 is: 00: 00: 41
+HR: 0.635	NDCG: 0.376
+End. Best epoch 003: HR = 0.648, NDCG = 0.387
+The time elapse of epoch 000 is: 00: 12: 22
+HR: 0.637	NDCG: 0.378	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.637, NDCG = 0.378, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 3	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 39
+HR: 0.632	NDCG: 0.374
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.628	NDCG: 0.373
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.634	NDCG: 0.375
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.636	NDCG: 0.377
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.634	NDCG: 0.374
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.632	NDCG: 0.375
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.631	NDCG: 0.373
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.629	NDCG: 0.370
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.627	NDCG: 0.372
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.628	NDCG: 0.370
+End. Best epoch 003: HR = 0.636, NDCG = 0.377
+The time elapse of epoch 000 is: 00: 12: 12
+HR: 0.626	NDCG: 0.367	POISON_HR: 0.001	
+End. Best epoch 000: HR = 0.626, NDCG = 0.367, POISON_HR = 0.001
+#############################################################################
+#########################	INSERTING FAKE USER 4	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 39
+HR: 0.626	NDCG: 0.368
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.626	NDCG: 0.366
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.624	NDCG: 0.369
+The time elapse of epoch 003 is: 00: 00: 41
+HR: 0.625	NDCG: 0.369
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.617	NDCG: 0.363
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.622	NDCG: 0.368
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.625	NDCG: 0.370
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.623	NDCG: 0.368
+The time elapse of epoch 008 is: 00: 00: 41
+HR: 0.618	NDCG: 0.367
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.615	NDCG: 0.364
+End. Best epoch 001: HR = 0.626, NDCG = 0.366
+The time elapse of epoch 000 is: 00: 12: 13
+HR: 0.616	NDCG: 0.361	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.616, NDCG = 0.361, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 5	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.616	NDCG: 0.361
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.616	NDCG: 0.360
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.617	NDCG: 0.359
+The time elapse of epoch 003 is: 00: 00: 41
+HR: 0.617	NDCG: 0.362
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.616	NDCG: 0.357
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.616	NDCG: 0.362
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.614	NDCG: 0.358
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.622	NDCG: 0.361
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.615	NDCG: 0.359
+The time elapse of epoch 009 is: 00: 00: 38
+HR: 0.613	NDCG: 0.355
+End. Best epoch 007: HR = 0.622, NDCG = 0.361
+The time elapse of epoch 000 is: 00: 12: 20
+HR: 0.612	NDCG: 0.359	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.612, NDCG = 0.359, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 6	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.614	NDCG: 0.360
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.613	NDCG: 0.361
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.611	NDCG: 0.358
+The time elapse of epoch 003 is: 00: 00: 41
+HR: 0.617	NDCG: 0.360
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.611	NDCG: 0.356
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.612	NDCG: 0.357
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.609	NDCG: 0.354
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.605	NDCG: 0.354
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.613	NDCG: 0.358
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.610	NDCG: 0.355
+End. Best epoch 003: HR = 0.617, NDCG = 0.360
+The time elapse of epoch 000 is: 00: 12: 20
+HR: 0.605	NDCG: 0.353	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.605, NDCG = 0.353, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 7	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.608	NDCG: 0.356
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.607	NDCG: 0.354
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.611	NDCG: 0.357
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.606	NDCG: 0.352
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.609	NDCG: 0.356
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.611	NDCG: 0.354
+The time elapse of epoch 006 is: 00: 00: 42
+HR: 0.598	NDCG: 0.348
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.603	NDCG: 0.351
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.605	NDCG: 0.349
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.604	NDCG: 0.349
+End. Best epoch 005: HR = 0.611, NDCG = 0.354
+The time elapse of epoch 000 is: 00: 12: 12
+HR: 0.605	NDCG: 0.351	POISON_HR: 0.001	
+End. Best epoch 000: HR = 0.605, NDCG = 0.351, POISON_HR = 0.001
+#############################################################################
+#########################	INSERTING FAKE USER 8	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.605	NDCG: 0.351
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.608	NDCG: 0.354
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.606	NDCG: 0.352
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.602	NDCG: 0.349
+The time elapse of epoch 004 is: 00: 00: 43
+HR: 0.606	NDCG: 0.351
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.604	NDCG: 0.352
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.603	NDCG: 0.349
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.601	NDCG: 0.347
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.607	NDCG: 0.351
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.604	NDCG: 0.347
+End. Best epoch 001: HR = 0.608, NDCG = 0.354
+The time elapse of epoch 000 is: 00: 12: 08
+HR: 0.605	NDCG: 0.352	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.605, NDCG = 0.352, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 9	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.600	NDCG: 0.349
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.602	NDCG: 0.350
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.608	NDCG: 0.350
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.597	NDCG: 0.346
+The time elapse of epoch 004 is: 00: 00: 41
+HR: 0.601	NDCG: 0.351
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.597	NDCG: 0.345
+The time elapse of epoch 006 is: 00: 00: 39
+HR: 0.597	NDCG: 0.346
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.598	NDCG: 0.344
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.599	NDCG: 0.347
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.602	NDCG: 0.346
+End. Best epoch 002: HR = 0.608, NDCG = 0.350
+The time elapse of epoch 000 is: 00: 12: 14
+HR: 0.602	NDCG: 0.347	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.602, NDCG = 0.347, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 10	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 39
+HR: 0.602	NDCG: 0.346
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.596	NDCG: 0.344
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.600	NDCG: 0.343
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.592	NDCG: 0.340
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.598	NDCG: 0.345
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.597	NDCG: 0.344
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.599	NDCG: 0.345
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.598	NDCG: 0.346
+The time elapse of epoch 008 is: 00: 00: 41
+HR: 0.600	NDCG: 0.344
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.597	NDCG: 0.344
+End. Best epoch 000: HR = 0.602, NDCG = 0.346
+The time elapse of epoch 000 is: 00: 12: 11
+HR: 0.598	NDCG: 0.344	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.598, NDCG = 0.344, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 11	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.598	NDCG: 0.343
+The time elapse of epoch 001 is: 00: 00: 42
+HR: 0.600	NDCG: 0.342
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.601	NDCG: 0.342
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.600	NDCG: 0.345
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.597	NDCG: 0.342
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.600	NDCG: 0.344
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.598	NDCG: 0.342
+The time elapse of epoch 007 is: 00: 00: 41
+HR: 0.600	NDCG: 0.343
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.594	NDCG: 0.341
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.601	NDCG: 0.345
+End. Best epoch 002: HR = 0.601, NDCG = 0.342
+The time elapse of epoch 000 is: 00: 12: 25
+HR: 0.597	NDCG: 0.343	POISON_HR: 0.001	
+End. Best epoch 000: HR = 0.597, NDCG = 0.343, POISON_HR = 0.001
+#############################################################################
+#########################	INSERTING FAKE USER 12	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.605	NDCG: 0.343
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.596	NDCG: 0.339
+The time elapse of epoch 002 is: 00: 00: 38
+HR: 0.599	NDCG: 0.339
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.600	NDCG: 0.340
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.597	NDCG: 0.339
+The time elapse of epoch 005 is: 00: 00: 38
+HR: 0.602	NDCG: 0.341
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.599	NDCG: 0.341
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.599	NDCG: 0.345
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.598	NDCG: 0.341
+The time elapse of epoch 009 is: 00: 00: 38
+HR: 0.599	NDCG: 0.340
+End. Best epoch 000: HR = 0.605, NDCG = 0.343
+The time elapse of epoch 000 is: 00: 12: 05
+HR: 0.593	NDCG: 0.339	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.593, NDCG = 0.339, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 13	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.593	NDCG: 0.336
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.590	NDCG: 0.335
+The time elapse of epoch 002 is: 00: 00: 38
+HR: 0.599	NDCG: 0.341
+The time elapse of epoch 003 is: 00: 00: 41
+HR: 0.592	NDCG: 0.338
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.596	NDCG: 0.340
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.597	NDCG: 0.342
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.597	NDCG: 0.344
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.593	NDCG: 0.341
+The time elapse of epoch 008 is: 00: 00: 41
+HR: 0.595	NDCG: 0.342
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.593	NDCG: 0.334
+End. Best epoch 002: HR = 0.599, NDCG = 0.341
+The time elapse of epoch 000 is: 00: 12: 07
+HR: 0.593	NDCG: 0.338	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.593, NDCG = 0.338, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 14	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.591	NDCG: 0.338
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.593	NDCG: 0.338
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.592	NDCG: 0.340
+The time elapse of epoch 003 is: 00: 00: 42
+HR: 0.594	NDCG: 0.340
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.592	NDCG: 0.337
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.594	NDCG: 0.340
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.590	NDCG: 0.335
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.592	NDCG: 0.340
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.591	NDCG: 0.339
+The time elapse of epoch 009 is: 00: 00: 43
+HR: 0.588	NDCG: 0.335
+End. Best epoch 003: HR = 0.594, NDCG = 0.340
+The time elapse of epoch 000 is: 00: 11: 57
+HR: 0.591	NDCG: 0.337	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.591, NDCG = 0.337, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 15	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.589	NDCG: 0.337
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.588	NDCG: 0.335
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.588	NDCG: 0.337
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.590	NDCG: 0.338
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.589	NDCG: 0.339
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.587	NDCG: 0.335
+The time elapse of epoch 006 is: 00: 00: 42
+HR: 0.589	NDCG: 0.336
+The time elapse of epoch 007 is: 00: 00: 38
+HR: 0.587	NDCG: 0.338
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.590	NDCG: 0.336
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.598	NDCG: 0.339
+End. Best epoch 009: HR = 0.598, NDCG = 0.339
+The time elapse of epoch 000 is: 00: 12: 13
+HR: 0.590	NDCG: 0.339	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.590, NDCG = 0.339, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 16	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.590	NDCG: 0.337
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.588	NDCG: 0.335
+The time elapse of epoch 002 is: 00: 00: 41
+HR: 0.591	NDCG: 0.335
+The time elapse of epoch 003 is: 00: 00: 42
+HR: 0.592	NDCG: 0.338
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.589	NDCG: 0.333
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.593	NDCG: 0.337
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.589	NDCG: 0.337
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.591	NDCG: 0.340
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.594	NDCG: 0.339
+The time elapse of epoch 009 is: 00: 00: 41
+HR: 0.589	NDCG: 0.338
+End. Best epoch 008: HR = 0.594, NDCG = 0.339
+The time elapse of epoch 000 is: 00: 12: 16
+HR: 0.593	NDCG: 0.336	POISON_HR: 0.001	
+End. Best epoch 000: HR = 0.593, NDCG = 0.336, POISON_HR = 0.001
+#############################################################################
+#########################	INSERTING FAKE USER 17	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.595	NDCG: 0.337
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.589	NDCG: 0.337
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.590	NDCG: 0.338
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.588	NDCG: 0.335
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.593	NDCG: 0.339
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.592	NDCG: 0.339
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.587	NDCG: 0.334
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.592	NDCG: 0.338
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.590	NDCG: 0.337
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.589	NDCG: 0.337
+End. Best epoch 000: HR = 0.595, NDCG = 0.337
+The time elapse of epoch 000 is: 00: 12: 16
+HR: 0.591	NDCG: 0.339	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.591, NDCG = 0.339, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 18	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.585	NDCG: 0.333
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.589	NDCG: 0.339
+The time elapse of epoch 002 is: 00: 00: 43
+HR: 0.591	NDCG: 0.338
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.588	NDCG: 0.338
+The time elapse of epoch 004 is: 00: 00: 41
+HR: 0.587	NDCG: 0.335
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.593	NDCG: 0.339
+The time elapse of epoch 006 is: 00: 00: 42
+HR: 0.590	NDCG: 0.335
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.587	NDCG: 0.337
+The time elapse of epoch 008 is: 00: 00: 42
+HR: 0.588	NDCG: 0.336
+The time elapse of epoch 009 is: 00: 00: 43
+HR: 0.583	NDCG: 0.332
+End. Best epoch 005: HR = 0.593, NDCG = 0.339
+The time elapse of epoch 000 is: 00: 12: 06
+HR: 0.584	NDCG: 0.333	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.584, NDCG = 0.333, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 19	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.586	NDCG: 0.335
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.586	NDCG: 0.335
+The time elapse of epoch 002 is: 00: 00: 41
+HR: 0.591	NDCG: 0.338
+The time elapse of epoch 003 is: 00: 00: 41
+HR: 0.590	NDCG: 0.335
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.589	NDCG: 0.334
+The time elapse of epoch 005 is: 00: 00: 41
+HR: 0.593	NDCG: 0.339
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.590	NDCG: 0.336
+The time elapse of epoch 007 is: 00: 00: 44
+HR: 0.589	NDCG: 0.335
+The time elapse of epoch 008 is: 00: 00: 41
+HR: 0.589	NDCG: 0.336
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.592	NDCG: 0.338
+End. Best epoch 005: HR = 0.593, NDCG = 0.339
+The time elapse of epoch 000 is: 00: 12: 07
+HR: 0.588	NDCG: 0.336	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.588, NDCG = 0.336, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 20	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.590	NDCG: 0.336
+The time elapse of epoch 001 is: 00: 00: 43
+HR: 0.587	NDCG: 0.335
+The time elapse of epoch 002 is: 00: 00: 41
+HR: 0.587	NDCG: 0.335
+The time elapse of epoch 003 is: 00: 00: 38
+HR: 0.585	NDCG: 0.335
+The time elapse of epoch 004 is: 00: 00: 41
+HR: 0.587	NDCG: 0.335
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.593	NDCG: 0.335
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.593	NDCG: 0.337
+The time elapse of epoch 007 is: 00: 00: 38
+HR: 0.587	NDCG: 0.338
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.584	NDCG: 0.333
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.585	NDCG: 0.336
+End. Best epoch 005: HR = 0.593, NDCG = 0.335
+The time elapse of epoch 000 is: 00: 12: 17
+HR: 0.585	NDCG: 0.333	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.585, NDCG = 0.333, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 21	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.584	NDCG: 0.334
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.582	NDCG: 0.332
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.578	NDCG: 0.331
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.589	NDCG: 0.336
+The time elapse of epoch 004 is: 00: 00: 42
+HR: 0.584	NDCG: 0.335
+The time elapse of epoch 005 is: 00: 00: 41
+HR: 0.585	NDCG: 0.334
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.584	NDCG: 0.330
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.585	NDCG: 0.333
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.581	NDCG: 0.333
+The time elapse of epoch 009 is: 00: 00: 38
+HR: 0.589	NDCG: 0.335
+End. Best epoch 003: HR = 0.589, NDCG = 0.336
+The time elapse of epoch 000 is: 00: 12: 12
+HR: 0.589	NDCG: 0.335	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.589, NDCG = 0.335, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 22	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.585	NDCG: 0.334
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.583	NDCG: 0.332
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.587	NDCG: 0.333
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.586	NDCG: 0.335
+The time elapse of epoch 004 is: 00: 00: 42
+HR: 0.587	NDCG: 0.335
+The time elapse of epoch 005 is: 00: 00: 43
+HR: 0.589	NDCG: 0.335
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.588	NDCG: 0.333
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.584	NDCG: 0.334
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.581	NDCG: 0.329
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.581	NDCG: 0.331
+End. Best epoch 005: HR = 0.589, NDCG = 0.335
+The time elapse of epoch 000 is: 00: 12: 12
+HR: 0.582	NDCG: 0.332	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.582, NDCG = 0.332, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 23	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.583	NDCG: 0.331
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.582	NDCG: 0.329
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.581	NDCG: 0.328
+The time elapse of epoch 003 is: 00: 00: 41
+HR: 0.582	NDCG: 0.329
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.578	NDCG: 0.330
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.578	NDCG: 0.329
+The time elapse of epoch 006 is: 00: 00: 39
+HR: 0.580	NDCG: 0.328
+The time elapse of epoch 007 is: 00: 00: 44
+HR: 0.578	NDCG: 0.329
+The time elapse of epoch 008 is: 00: 00: 41
+HR: 0.585	NDCG: 0.329
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.587	NDCG: 0.333
+End. Best epoch 009: HR = 0.587, NDCG = 0.333
+The time elapse of epoch 000 is: 00: 12: 12
+HR: 0.589	NDCG: 0.332	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.589, NDCG = 0.332, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 24	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.584	NDCG: 0.330
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.580	NDCG: 0.330
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.583	NDCG: 0.329
+The time elapse of epoch 003 is: 00: 00: 41
+HR: 0.586	NDCG: 0.330
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.583	NDCG: 0.332
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.584	NDCG: 0.330
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.582	NDCG: 0.329
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.581	NDCG: 0.332
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.581	NDCG: 0.332
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.579	NDCG: 0.328
+End. Best epoch 003: HR = 0.586, NDCG = 0.330
+The time elapse of epoch 000 is: 00: 12: 23
+HR: 0.587	NDCG: 0.334	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.587, NDCG = 0.334, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 25	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.581	NDCG: 0.330
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.578	NDCG: 0.327
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.586	NDCG: 0.330
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.585	NDCG: 0.332
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.586	NDCG: 0.330
+The time elapse of epoch 005 is: 00: 00: 41
+HR: 0.586	NDCG: 0.328
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.585	NDCG: 0.329
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.583	NDCG: 0.328
+The time elapse of epoch 008 is: 00: 00: 42
+HR: 0.581	NDCG: 0.330
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.584	NDCG: 0.331
+End. Best epoch 002: HR = 0.586, NDCG = 0.330
+The time elapse of epoch 000 is: 00: 12: 24
+HR: 0.581	NDCG: 0.330	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.581, NDCG = 0.330, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 26	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 42
+HR: 0.583	NDCG: 0.333
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.580	NDCG: 0.330
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.584	NDCG: 0.329
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.580	NDCG: 0.328
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.582	NDCG: 0.329
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.584	NDCG: 0.330
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.589	NDCG: 0.333
+The time elapse of epoch 007 is: 00: 00: 41
+HR: 0.584	NDCG: 0.329
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.584	NDCG: 0.325
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.577	NDCG: 0.327
+End. Best epoch 006: HR = 0.589, NDCG = 0.333
+The time elapse of epoch 000 is: 00: 12: 12
+HR: 0.578	NDCG: 0.325	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.578, NDCG = 0.325, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 27	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.583	NDCG: 0.326
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.583	NDCG: 0.328
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.581	NDCG: 0.326
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.580	NDCG: 0.326
+The time elapse of epoch 004 is: 00: 00: 41
+HR: 0.583	NDCG: 0.327
+The time elapse of epoch 005 is: 00: 00: 43
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.581	NDCG: 0.327
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.581	NDCG: 0.328
+The time elapse of epoch 009 is: 00: 00: 41
+HR: 0.578	NDCG: 0.325
+End. Best epoch 000: HR = 0.583, NDCG = 0.326
+The time elapse of epoch 000 is: 00: 12: 05
+HR: 0.577	NDCG: 0.327	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.577, NDCG = 0.327, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 28	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.582	NDCG: 0.329
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.580	NDCG: 0.325
+The time elapse of epoch 002 is: 00: 00: 46
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 003 is: 00: 00: 41
+HR: 0.578	NDCG: 0.326
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.576	NDCG: 0.325
+The time elapse of epoch 005 is: 00: 00: 41
+HR: 0.578	NDCG: 0.328
+The time elapse of epoch 006 is: 00: 00: 41
+HR: 0.580	NDCG: 0.329
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.581	NDCG: 0.330
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.582	NDCG: 0.329
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.577	NDCG: 0.327
+End. Best epoch 000: HR = 0.582, NDCG = 0.329
+The time elapse of epoch 000 is: 00: 11: 58
+HR: 0.577	NDCG: 0.327	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.577, NDCG = 0.327, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 29	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 001 is: 00: 00: 38
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 002 is: 00: 00: 38
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.579	NDCG: 0.329
+The time elapse of epoch 005 is: 00: 00: 38
+HR: 0.579	NDCG: 0.329
+The time elapse of epoch 006 is: 00: 00: 42
+HR: 0.576	NDCG: 0.328
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.576	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 38
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.576	NDCG: 0.327
+End. Best epoch 008: HR = 0.579, NDCG = 0.327
+The time elapse of epoch 000 is: 00: 11: 47
+HR: 0.575	NDCG: 0.326	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.575, NDCG = 0.326, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 30	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.582	NDCG: 0.327
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.579	NDCG: 0.330
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.579	NDCG: 0.328
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.578	NDCG: 0.326
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.580	NDCG: 0.328
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.573	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.575	NDCG: 0.329
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.573	NDCG: 0.324
+The time elapse of epoch 009 is: 00: 00: 38
+HR: 0.573	NDCG: 0.327
+End. Best epoch 000: HR = 0.582, NDCG = 0.327
+The time elapse of epoch 000 is: 00: 11: 54
+HR: 0.576	NDCG: 0.325	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.576, NDCG = 0.325, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 31	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.577	NDCG: 0.326
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.577	NDCG: 0.329
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.582	NDCG: 0.327
+The time elapse of epoch 003 is: 00: 00: 38
+HR: 0.578	NDCG: 0.329
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.582	NDCG: 0.329
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.579	NDCG: 0.329
+The time elapse of epoch 006 is: 00: 00: 38
+HR: 0.577	NDCG: 0.326
+The time elapse of epoch 007 is: 00: 00: 37
+HR: 0.582	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.576	NDCG: 0.326
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.582	NDCG: 0.327
+End. Best epoch 007: HR = 0.582, NDCG = 0.326
+The time elapse of epoch 000 is: 00: 11: 42
+HR: 0.582	NDCG: 0.326	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.582, NDCG = 0.326, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 32	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.582	NDCG: 0.327
+The time elapse of epoch 001 is: 00: 00: 38
+HR: 0.579	NDCG: 0.326
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.580	NDCG: 0.326
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.576	NDCG: 0.325
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.584	NDCG: 0.330
+The time elapse of epoch 005 is: 00: 00: 41
+HR: 0.583	NDCG: 0.328
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.581	NDCG: 0.328
+The time elapse of epoch 007 is: 00: 00: 38
+HR: 0.576	NDCG: 0.323
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.576	NDCG: 0.325
+The time elapse of epoch 009 is: 00: 00: 37
+HR: 0.578	NDCG: 0.325
+End. Best epoch 004: HR = 0.584, NDCG = 0.330
+The time elapse of epoch 000 is: 00: 11: 40
+HR: 0.575	NDCG: 0.324	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.575, NDCG = 0.324, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 33	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 36
+HR: 0.577	NDCG: 0.326
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.581	NDCG: 0.326
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.582	NDCG: 0.326
+The time elapse of epoch 003 is: 00: 00: 38
+HR: 0.581	NDCG: 0.327
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.580	NDCG: 0.327
+The time elapse of epoch 006 is: 00: 00: 38
+HR: 0.581	NDCG: 0.327
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.581	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 38
+HR: 0.579	NDCG: 0.325
+The time elapse of epoch 009 is: 00: 00: 41
+HR: 0.584	NDCG: 0.327
+End. Best epoch 009: HR = 0.584, NDCG = 0.327
+The time elapse of epoch 000 is: 00: 11: 38
+HR: 0.582	NDCG: 0.328	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.582, NDCG = 0.328, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 34	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 36
+HR: 0.581	NDCG: 0.326
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.579	NDCG: 0.328
+The time elapse of epoch 003 is: 00: 00: 38
+HR: 0.580	NDCG: 0.325
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.578	NDCG: 0.328
+The time elapse of epoch 005 is: 00: 00: 38
+HR: 0.577	NDCG: 0.328
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.577	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 38
+HR: 0.576	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 009 is: 00: 00: 38
+HR: 0.579	NDCG: 0.324
+End. Best epoch 001: HR = 0.582, NDCG = 0.325
+The time elapse of epoch 000 is: 00: 11: 55
+HR: 0.579	NDCG: 0.326	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.579, NDCG = 0.326, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 35	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 36
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.571	NDCG: 0.322
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.581	NDCG: 0.326
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.581	NDCG: 0.324
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.575	NDCG: 0.324
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.577	NDCG: 0.326
+The time elapse of epoch 006 is: 00: 00: 39
+HR: 0.581	NDCG: 0.328
+The time elapse of epoch 007 is: 00: 00: 38
+HR: 0.579	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.583	NDCG: 0.326
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.581	NDCG: 0.326
+End. Best epoch 008: HR = 0.583, NDCG = 0.326
+The time elapse of epoch 000 is: 00: 11: 43
+HR: 0.579	NDCG: 0.326	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.579, NDCG = 0.326, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 36	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.580	NDCG: 0.325
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.583	NDCG: 0.327
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.582	NDCG: 0.326
+The time elapse of epoch 006 is: 00: 00: 39
+HR: 0.577	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.581	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 38
+HR: 0.580	NDCG: 0.327
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.581	NDCG: 0.325
+End. Best epoch 004: HR = 0.583, NDCG = 0.327
+The time elapse of epoch 000 is: 00: 11: 39
+HR: 0.582	NDCG: 0.325	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.582, NDCG = 0.325, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 37	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.578	NDCG: 0.326
+The time elapse of epoch 002 is: 00: 00: 38
+HR: 0.580	NDCG: 0.327
+The time elapse of epoch 003 is: 00: 00: 42
+HR: 0.578	NDCG: 0.325
+The time elapse of epoch 004 is: 00: 00: 41
+HR: 0.579	NDCG: 0.326
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.584	NDCG: 0.328
+The time elapse of epoch 006 is: 00: 00: 38
+HR: 0.581	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 41
+HR: 0.579	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.579	NDCG: 0.325
+The time elapse of epoch 009 is: 00: 00: 43
+HR: 0.580	NDCG: 0.327
+End. Best epoch 005: HR = 0.584, NDCG = 0.328
+The time elapse of epoch 000 is: 00: 11: 38
+HR: 0.584	NDCG: 0.327	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.584, NDCG = 0.327, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 38	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 36
+HR: 0.582	NDCG: 0.328
+The time elapse of epoch 001 is: 00: 00: 42
+HR: 0.581	NDCG: 0.329
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.581	NDCG: 0.327
+The time elapse of epoch 003 is: 00: 00: 38
+HR: 0.586	NDCG: 0.329
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.582	NDCG: 0.327
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.584	NDCG: 0.327
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.583	NDCG: 0.328
+The time elapse of epoch 007 is: 00: 00: 38
+HR: 0.586	NDCG: 0.330
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.582	NDCG: 0.327
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.584	NDCG: 0.328
+End. Best epoch 003: HR = 0.586, NDCG = 0.329
+The time elapse of epoch 000 is: 00: 11: 40
+HR: 0.582	NDCG: 0.326	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.582, NDCG = 0.326, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 39	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 35
+HR: 0.579	NDCG: 0.325
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.577	NDCG: 0.325
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.575	NDCG: 0.321
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.579	NDCG: 0.321
+The time elapse of epoch 006 is: 00: 00: 39
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.575	NDCG: 0.322
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 009 is: 00: 00: 38
+HR: 0.581	NDCG: 0.326
+End. Best epoch 003: HR = 0.582, NDCG = 0.325
+The time elapse of epoch 000 is: 00: 12: 05
+HR: 0.581	NDCG: 0.324	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.581, NDCG = 0.324, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 40	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 39
+HR: 0.583	NDCG: 0.327
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.578	NDCG: 0.327
+The time elapse of epoch 002 is: 00: 00: 41
+HR: 0.582	NDCG: 0.326
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.583	NDCG: 0.326
+The time elapse of epoch 005 is: 00: 00: 38
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 008 is: 00: 00: 38
+HR: 0.576	NDCG: 0.324
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.579	NDCG: 0.325
+End. Best epoch 000: HR = 0.583, NDCG = 0.327
+The time elapse of epoch 000 is: 00: 11: 49
+HR: 0.580	NDCG: 0.324	POISON_HR: 0.002	
+End. Best epoch 000: HR = 0.580, NDCG = 0.324, POISON_HR = 0.002
+#############################################################################
+#########################	INSERTING FAKE USER 41	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 36
+HR: 0.578	NDCG: 0.321
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 41
+HR: 0.580	NDCG: 0.325
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.582	NDCG: 0.323
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.578	NDCG: 0.325
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.576	NDCG: 0.322
+The time elapse of epoch 006 is: 00: 00: 38
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.580	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.578	NDCG: 0.323
+End. Best epoch 003: HR = 0.582, NDCG = 0.323
+The time elapse of epoch 000 is: 00: 11: 50
+HR: 0.580	NDCG: 0.326	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.580, NDCG = 0.326, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 42	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.583	NDCG: 0.330
+The time elapse of epoch 001 is: 00: 00: 37
+HR: 0.582	NDCG: 0.327
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 003 is: 00: 00: 42
+HR: 0.578	NDCG: 0.321
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 005 is: 00: 00: 38
+HR: 0.577	NDCG: 0.325
+The time elapse of epoch 006 is: 00: 00: 37
+HR: 0.578	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 008 is: 00: 00: 38
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.579	NDCG: 0.325
+End. Best epoch 000: HR = 0.583, NDCG = 0.330
+The time elapse of epoch 000 is: 00: 11: 50
+HR: 0.579	NDCG: 0.323	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.579, NDCG = 0.323, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 43	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.576	NDCG: 0.324
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 38
+HR: 0.582	NDCG: 0.328
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.580	NDCG: 0.323
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.575	NDCG: 0.323
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 006 is: 00: 00: 39
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.577	NDCG: 0.323
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.578	NDCG: 0.325
+The time elapse of epoch 009 is: 00: 00: 38
+HR: 0.580	NDCG: 0.323
+End. Best epoch 002: HR = 0.582, NDCG = 0.328
+The time elapse of epoch 000 is: 00: 11: 42
+HR: 0.581	NDCG: 0.324	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.581, NDCG = 0.324, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 44	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.580	NDCG: 0.326
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.584	NDCG: 0.325
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.580	NDCG: 0.327
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 004 is: 00: 00: 38
+HR: 0.585	NDCG: 0.327
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.588	NDCG: 0.331
+The time elapse of epoch 006 is: 00: 00: 38
+HR: 0.583	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 41
+HR: 0.582	NDCG: 0.327
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.577	NDCG: 0.323
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.577	NDCG: 0.321
+End. Best epoch 005: HR = 0.588, NDCG = 0.331
+The time elapse of epoch 000 is: 00: 12: 02
+HR: 0.579	NDCG: 0.323	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.579, NDCG = 0.323, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 45	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 40
+HR: 0.579	NDCG: 0.326
+The time elapse of epoch 001 is: 00: 00: 41
+HR: 0.580	NDCG: 0.325
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.577	NDCG: 0.325
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.580	NDCG: 0.325
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.580	NDCG: 0.326
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.577	NDCG: 0.323
+The time elapse of epoch 007 is: 00: 00: 38
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.581	NDCG: 0.326
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.580	NDCG: 0.323
+End. Best epoch 008: HR = 0.581, NDCG = 0.326
+The time elapse of epoch 000 is: 00: 11: 36
+HR: 0.579	NDCG: 0.324	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.579, NDCG = 0.324, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 46	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.577	NDCG: 0.325
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.580	NDCG: 0.323
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.578	NDCG: 0.325
+The time elapse of epoch 003 is: 00: 00: 38
+HR: 0.579	NDCG: 0.325
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.577	NDCG: 0.325
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.574	NDCG: 0.323
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 007 is: 00: 00: 41
+HR: 0.581	NDCG: 0.325
+The time elapse of epoch 008 is: 00: 00: 38
+HR: 0.580	NDCG: 0.323
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.580	NDCG: 0.325
+End. Best epoch 007: HR = 0.581, NDCG = 0.325
+The time elapse of epoch 000 is: 00: 11: 54
+HR: 0.581	NDCG: 0.327	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.581, NDCG = 0.327, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 47	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.576	NDCG: 0.324
+The time elapse of epoch 001 is: 00: 00: 43
+HR: 0.583	NDCG: 0.326
+The time elapse of epoch 002 is: 00: 00: 38
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.583	NDCG: 0.327
+The time elapse of epoch 004 is: 00: 00: 38
+HR: 0.579	NDCG: 0.326
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 006 is: 00: 00: 39
+HR: 0.579	NDCG: 0.322
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.582	NDCG: 0.327
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.579	NDCG: 0.325
+The time elapse of epoch 009 is: 00: 00: 38
+HR: 0.579	NDCG: 0.326
+End. Best epoch 001: HR = 0.583, NDCG = 0.326
+The time elapse of epoch 000 is: 00: 11: 44
+HR: 0.580	NDCG: 0.325	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.580, NDCG = 0.325, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 48	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 41
+HR: 0.578	NDCG: 0.321
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.581	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 38
+HR: 0.584	NDCG: 0.326
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.585	NDCG: 0.326
+The time elapse of epoch 004 is: 00: 00: 38
+HR: 0.584	NDCG: 0.325
+The time elapse of epoch 005 is: 00: 00: 38
+HR: 0.580	NDCG: 0.325
+The time elapse of epoch 006 is: 00: 00: 37
+HR: 0.587	NDCG: 0.328
+The time elapse of epoch 007 is: 00: 00: 42
+HR: 0.583	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 41
+HR: 0.580	NDCG: 0.322
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.584	NDCG: 0.328
+End. Best epoch 006: HR = 0.587, NDCG = 0.328
+The time elapse of epoch 000 is: 00: 11: 47
+HR: 0.580	NDCG: 0.325	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.580, NDCG = 0.325, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 49	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.581	NDCG: 0.328
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.584	NDCG: 0.325
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.582	NDCG: 0.327
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.582	NDCG: 0.324
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 005 is: 00: 00: 41
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 006 is: 00: 00: 39
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 007 is: 00: 00: 45
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 008 is: 00: 00: 41
+HR: 0.580	NDCG: 0.326
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.580	NDCG: 0.325
+End. Best epoch 001: HR = 0.584, NDCG = 0.325
+The time elapse of epoch 000 is: 00: 11: 54
+HR: 0.579	NDCG: 0.325	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.579, NDCG = 0.325, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 50	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 38
+HR: 0.580	NDCG: 0.325
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.581	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.581	NDCG: 0.324
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.581	NDCG: 0.325
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.577	NDCG: 0.320
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.582	NDCG: 0.323
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.581	NDCG: 0.323
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.581	NDCG: 0.324
+End. Best epoch 007: HR = 0.582, NDCG = 0.323
+The time elapse of epoch 000 is: 00: 11: 46
+HR: 0.579	NDCG: 0.321	POISON_HR: 0.004	
+End. Best epoch 000: HR = 0.579, NDCG = 0.321, POISON_HR = 0.004
+#############################################################################
+#########################	INSERTING FAKE USER 51	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.581	NDCG: 0.324
+The time elapse of epoch 001 is: 00: 00: 40
+HR: 0.577	NDCG: 0.321
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 003 is: 00: 00: 37
+HR: 0.580	NDCG: 0.325
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.576	NDCG: 0.325
+The time elapse of epoch 005 is: 00: 00: 38
+HR: 0.583	NDCG: 0.328
+The time elapse of epoch 006 is: 00: 00: 39
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.581	NDCG: 0.325
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.580	NDCG: 0.326
+The time elapse of epoch 009 is: 00: 00: 38
+HR: 0.578	NDCG: 0.323
+End. Best epoch 005: HR = 0.583, NDCG = 0.328
+The time elapse of epoch 000 is: 00: 11: 46
+HR: 0.577	NDCG: 0.322	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.577, NDCG = 0.322, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 52	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 36
+HR: 0.578	NDCG: 0.325
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.577	NDCG: 0.320
+The time elapse of epoch 002 is: 00: 00: 38
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.582	NDCG: 0.323
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.579	NDCG: 0.322
+The time elapse of epoch 005 is: 00: 00: 38
+HR: 0.578	NDCG: 0.322
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 007 is: 00: 00: 38
+HR: 0.584	NDCG: 0.324
+The time elapse of epoch 008 is: 00: 00: 40
+HR: 0.580	NDCG: 0.323
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.575	NDCG: 0.323
+End. Best epoch 007: HR = 0.584, NDCG = 0.324
+The time elapse of epoch 000 is: 00: 11: 43
+HR: 0.585	NDCG: 0.328	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.585, NDCG = 0.328, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 53	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.583	NDCG: 0.325
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.584	NDCG: 0.328
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.582	NDCG: 0.326
+The time elapse of epoch 003 is: 00: 00: 38
+HR: 0.584	NDCG: 0.324
+The time elapse of epoch 004 is: 00: 00: 38
+HR: 0.586	NDCG: 0.327
+The time elapse of epoch 005 is: 00: 00: 39
+HR: 0.584	NDCG: 0.327
+The time elapse of epoch 006 is: 00: 00: 39
+HR: 0.581	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.581	NDCG: 0.325
+The time elapse of epoch 008 is: 00: 00: 38
+HR: 0.584	NDCG: 0.328
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.586	NDCG: 0.328
+End. Best epoch 004: HR = 0.586, NDCG = 0.327
+The time elapse of epoch 000 is: 00: 11: 49
+HR: 0.580	NDCG: 0.323	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.580, NDCG = 0.323, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 54	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 40
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 39
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.577	NDCG: 0.323
+The time elapse of epoch 004 is: 00: 00: 40
+HR: 0.578	NDCG: 0.325
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.574	NDCG: 0.320
+The time elapse of epoch 006 is: 00: 00: 42
+HR: 0.579	NDCG: 0.322
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.584	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 41
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 009 is: 00: 00: 39
+HR: 0.585	NDCG: 0.326
+End. Best epoch 009: HR = 0.585, NDCG = 0.326
+The time elapse of epoch 000 is: 00: 11: 46
+HR: 0.577	NDCG: 0.322	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.577, NDCG = 0.322, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 55	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 36
+HR: 0.579	NDCG: 0.322
+The time elapse of epoch 001 is: 00: 00: 38
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 40
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 003 is: 00: 00: 39
+HR: 0.584	NDCG: 0.325
+The time elapse of epoch 004 is: 00: 00: 41
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 006 is: 00: 00: 38
+HR: 0.583	NDCG: 0.326
+The time elapse of epoch 007 is: 00: 00: 40
+HR: 0.580	NDCG: 0.326
+The time elapse of epoch 008 is: 00: 00: 37
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 009 is: 00: 00: 40
+HR: 0.579	NDCG: 0.321
+End. Best epoch 003: HR = 0.584, NDCG = 0.325
+The time elapse of epoch 000 is: 00: 11: 46
+HR: 0.579	NDCG: 0.325	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.579, NDCG = 0.325, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 56	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 37
+HR: 0.581	NDCG: 0.327
+The time elapse of epoch 001 is: 00: 00: 39
+HR: 0.578	NDCG: 0.321
+The time elapse of epoch 002 is: 00: 00: 37
+HR: 0.586	NDCG: 0.324
+The time elapse of epoch 003 is: 00: 00: 40
+HR: 0.576	NDCG: 0.321
+The time elapse of epoch 004 is: 00: 00: 39
+HR: 0.585	NDCG: 0.327
+The time elapse of epoch 005 is: 00: 00: 40
+HR: 0.585	NDCG: 0.327
+The time elapse of epoch 006 is: 00: 00: 38
+HR: 0.579	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 39
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 008 is: 00: 00: 38
+HR: 0.585	NDCG: 0.327
+The time elapse of epoch 009 is: 00: 00: 38
+HR: 0.580	NDCG: 0.326
+End. Best epoch 002: HR = 0.586, NDCG = 0.324
+The time elapse of epoch 000 is: 00: 10: 52
+HR: 0.587	NDCG: 0.327	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.587, NDCG = 0.327, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 57	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 34
+HR: 0.582	NDCG: 0.326
+The time elapse of epoch 001 is: 00: 00: 32
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 31
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 003 is: 00: 00: 33
+HR: 0.585	NDCG: 0.326
+The time elapse of epoch 004 is: 00: 00: 32
+HR: 0.578	NDCG: 0.322
+The time elapse of epoch 005 is: 00: 00: 32
+HR: 0.582	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 31
+HR: 0.585	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 32
+HR: 0.587	NDCG: 0.325
+The time elapse of epoch 008 is: 00: 00: 33
+HR: 0.582	NDCG: 0.323
+The time elapse of epoch 009 is: 00: 00: 31
+HR: 0.583	NDCG: 0.321
+End. Best epoch 007: HR = 0.587, NDCG = 0.325
+The time elapse of epoch 000 is: 00: 09: 58
+HR: 0.579	NDCG: 0.323	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.579, NDCG = 0.323, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 58	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 34
+HR: 0.580	NDCG: 0.322
+The time elapse of epoch 001 is: 00: 00: 34
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 002 is: 00: 00: 31
+HR: 0.574	NDCG: 0.320
+The time elapse of epoch 003 is: 00: 00: 31
+HR: 0.577	NDCG: 0.320
+The time elapse of epoch 004 is: 00: 00: 33
+HR: 0.575	NDCG: 0.323
+The time elapse of epoch 005 is: 00: 00: 30
+HR: 0.576	NDCG: 0.323
+The time elapse of epoch 006 is: 00: 00: 31
+HR: 0.581	NDCG: 0.326
+The time elapse of epoch 007 is: 00: 00: 31
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 008 is: 00: 00: 31
+HR: 0.582	NDCG: 0.324
+The time elapse of epoch 009 is: 00: 00: 32
+HR: 0.576	NDCG: 0.325
+End. Best epoch 008: HR = 0.582, NDCG = 0.324
+The time elapse of epoch 000 is: 00: 09: 40
+HR: 0.573	NDCG: 0.323	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.573, NDCG = 0.323, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 59	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 31
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 001 is: 00: 00: 32
+HR: 0.578	NDCG: 0.321
+The time elapse of epoch 002 is: 00: 00: 34
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 003 is: 00: 00: 34
+HR: 0.584	NDCG: 0.325
+The time elapse of epoch 004 is: 00: 00: 34
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 005 is: 00: 00: 32
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 006 is: 00: 00: 32
+HR: 0.578	NDCG: 0.322
+The time elapse of epoch 007 is: 00: 00: 31
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 008 is: 00: 00: 34
+HR: 0.581	NDCG: 0.325
+The time elapse of epoch 009 is: 00: 00: 34
+HR: 0.578	NDCG: 0.322
+End. Best epoch 003: HR = 0.584, NDCG = 0.325
+The time elapse of epoch 000 is: 00: 09: 54
+HR: 0.577	NDCG: 0.321	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.577, NDCG = 0.321, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 60	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 31
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 001 is: 00: 00: 31
+HR: 0.577	NDCG: 0.323
+The time elapse of epoch 002 is: 00: 00: 33
+HR: 0.578	NDCG: 0.325
+The time elapse of epoch 003 is: 00: 00: 31
+HR: 0.580	NDCG: 0.326
+The time elapse of epoch 004 is: 00: 00: 32
+HR: 0.579	NDCG: 0.325
+The time elapse of epoch 005 is: 00: 00: 32
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 32
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 007 is: 00: 00: 33
+HR: 0.580	NDCG: 0.323
+The time elapse of epoch 008 is: 00: 00: 33
+HR: 0.579	NDCG: 0.327
+The time elapse of epoch 009 is: 00: 00: 35
+HR: 0.576	NDCG: 0.322
+End. Best epoch 003: HR = 0.580, NDCG = 0.326
+The time elapse of epoch 000 is: 00: 09: 02
+HR: 0.582	NDCG: 0.323	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.582, NDCG = 0.323, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 61	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 31
+HR: 0.576	NDCG: 0.321
+The time elapse of epoch 001 is: 00: 00: 33
+HR: 0.576	NDCG: 0.321
+The time elapse of epoch 002 is: 00: 00: 32
+HR: 0.578	NDCG: 0.322
+The time elapse of epoch 003 is: 00: 00: 32
+HR: 0.574	NDCG: 0.321
+The time elapse of epoch 004 is: 00: 00: 33
+HR: 0.572	NDCG: 0.321
+The time elapse of epoch 005 is: 00: 00: 33
+HR: 0.576	NDCG: 0.321
+The time elapse of epoch 006 is: 00: 00: 33
+HR: 0.573	NDCG: 0.318
+The time elapse of epoch 007 is: 00: 00: 33
+HR: 0.575	NDCG: 0.321
+The time elapse of epoch 008 is: 00: 00: 33
+HR: 0.576	NDCG: 0.321
+The time elapse of epoch 009 is: 00: 00: 36
+HR: 0.578	NDCG: 0.320
+End. Best epoch 002: HR = 0.578, NDCG = 0.322
+The time elapse of epoch 000 is: 00: 09: 21
+HR: 0.576	NDCG: 0.319	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.576, NDCG = 0.319, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 62	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 32
+HR: 0.576	NDCG: 0.320
+The time elapse of epoch 001 is: 00: 00: 31
+HR: 0.574	NDCG: 0.321
+The time elapse of epoch 002 is: 00: 00: 31
+HR: 0.575	NDCG: 0.322
+The time elapse of epoch 003 is: 00: 00: 31
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 004 is: 00: 00: 32
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 005 is: 00: 00: 33
+HR: 0.573	NDCG: 0.322
+The time elapse of epoch 006 is: 00: 00: 32
+HR: 0.574	NDCG: 0.322
+The time elapse of epoch 007 is: 00: 00: 33
+HR: 0.575	NDCG: 0.322
+The time elapse of epoch 008 is: 00: 00: 31
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 009 is: 00: 00: 31
+HR: 0.577	NDCG: 0.324
+End. Best epoch 008: HR = 0.579, NDCG = 0.323
+The time elapse of epoch 000 is: 00: 09: 16
+HR: 0.577	NDCG: 0.323	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.577, NDCG = 0.323, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 63	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 36
+HR: 0.582	NDCG: 0.326
+The time elapse of epoch 001 is: 00: 00: 33
+HR: 0.576	NDCG: 0.321
+The time elapse of epoch 002 is: 00: 00: 32
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 003 is: 00: 00: 31
+HR: 0.582	NDCG: 0.327
+The time elapse of epoch 004 is: 00: 00: 30
+HR: 0.577	NDCG: 0.323
+The time elapse of epoch 005 is: 00: 00: 33
+HR: 0.577	NDCG: 0.323
+The time elapse of epoch 006 is: 00: 00: 33
+HR: 0.580	NDCG: 0.323
+The time elapse of epoch 007 is: 00: 00: 37
+HR: 0.573	NDCG: 0.320
+The time elapse of epoch 008 is: 00: 00: 35
+HR: 0.576	NDCG: 0.321
+The time elapse of epoch 009 is: 00: 00: 31
+HR: 0.577	NDCG: 0.322
+End. Best epoch 000: HR = 0.582, NDCG = 0.326
+The time elapse of epoch 000 is: 00: 09: 58
+HR: 0.578	NDCG: 0.321	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.578, NDCG = 0.321, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 64	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 33
+HR: 0.574	NDCG: 0.321
+The time elapse of epoch 001 is: 00: 00: 33
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 35
+HR: 0.576	NDCG: 0.325
+The time elapse of epoch 003 is: 00: 00: 42
+HR: 0.576	NDCG: 0.322
+The time elapse of epoch 004 is: 00: 00: 33
+HR: 0.571	NDCG: 0.322
+The time elapse of epoch 005 is: 00: 00: 31
+HR: 0.581	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 31
+HR: 0.574	NDCG: 0.323
+The time elapse of epoch 007 is: 00: 00: 33
+HR: 0.575	NDCG: 0.319
+The time elapse of epoch 008 is: 00: 00: 32
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 009 is: 00: 00: 32
+HR: 0.577	NDCG: 0.323
+End. Best epoch 008: HR = 0.582, NDCG = 0.325
+The time elapse of epoch 000 is: 00: 09: 08
+HR: 0.575	NDCG: 0.324	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.575, NDCG = 0.324, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 65	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 32
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 001 is: 00: 00: 32
+HR: 0.574	NDCG: 0.322
+The time elapse of epoch 002 is: 00: 00: 31
+HR: 0.580	NDCG: 0.323
+The time elapse of epoch 003 is: 00: 00: 34
+HR: 0.576	NDCG: 0.323
+The time elapse of epoch 004 is: 00: 00: 33
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 005 is: 00: 00: 32
+HR: 0.577	NDCG: 0.320
+The time elapse of epoch 006 is: 00: 00: 31
+HR: 0.576	NDCG: 0.321
+The time elapse of epoch 007 is: 00: 00: 35
+HR: 0.575	NDCG: 0.320
+The time elapse of epoch 008 is: 00: 00: 39
+HR: 0.574	NDCG: 0.321
+The time elapse of epoch 009 is: 00: 00: 34
+HR: 0.576	NDCG: 0.320
+End. Best epoch 002: HR = 0.580, NDCG = 0.323
+The time elapse of epoch 000 is: 00: 09: 41
+HR: 0.573	NDCG: 0.319	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.573, NDCG = 0.319, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 66	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 33
+HR: 0.575	NDCG: 0.321
+The time elapse of epoch 001 is: 00: 00: 36
+HR: 0.574	NDCG: 0.322
+The time elapse of epoch 002 is: 00: 00: 34
+HR: 0.572	NDCG: 0.318
+The time elapse of epoch 003 is: 00: 00: 33
+HR: 0.578	NDCG: 0.322
+The time elapse of epoch 004 is: 00: 00: 33
+HR: 0.573	NDCG: 0.318
+The time elapse of epoch 005 is: 00: 00: 33
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 006 is: 00: 00: 32
+HR: 0.576	NDCG: 0.320
+The time elapse of epoch 007 is: 00: 00: 32
+HR: 0.574	NDCG: 0.321
+The time elapse of epoch 008 is: 00: 00: 31
+HR: 0.576	NDCG: 0.322
+The time elapse of epoch 009 is: 00: 00: 33
+HR: 0.574	NDCG: 0.320
+End. Best epoch 003: HR = 0.578, NDCG = 0.322
+The time elapse of epoch 000 is: 00: 10: 32
+HR: 0.577	NDCG: 0.322	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.577, NDCG = 0.322, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 67	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 36
+HR: 0.573	NDCG: 0.321
+The time elapse of epoch 001 is: 00: 00: 33
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 002 is: 00: 00: 31
+HR: 0.577	NDCG: 0.323
+The time elapse of epoch 003 is: 00: 00: 36
+HR: 0.572	NDCG: 0.321
+The time elapse of epoch 004 is: 00: 00: 35
+HR: 0.576	NDCG: 0.323
+The time elapse of epoch 005 is: 00: 00: 37
+HR: 0.575	NDCG: 0.321
+The time elapse of epoch 006 is: 00: 00: 35
+HR: 0.573	NDCG: 0.322
+The time elapse of epoch 007 is: 00: 00: 33
+HR: 0.576	NDCG: 0.320
+The time elapse of epoch 008 is: 00: 00: 33
+HR: 0.581	NDCG: 0.323
+The time elapse of epoch 009 is: 00: 00: 33
+HR: 0.580	NDCG: 0.323
+End. Best epoch 008: HR = 0.581, NDCG = 0.323
+The time elapse of epoch 000 is: 00: 10: 28
+HR: 0.576	NDCG: 0.322	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.576, NDCG = 0.322, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 68	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 33
+HR: 0.576	NDCG: 0.322
+The time elapse of epoch 001 is: 00: 00: 34
+HR: 0.577	NDCG: 0.319
+The time elapse of epoch 002 is: 00: 00: 34
+HR: 0.576	NDCG: 0.321
+The time elapse of epoch 003 is: 00: 00: 36
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 004 is: 00: 00: 37
+HR: 0.576	NDCG: 0.320
+The time elapse of epoch 005 is: 00: 00: 36
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 32
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 007 is: 00: 00: 34
+HR: 0.575	NDCG: 0.323
+The time elapse of epoch 008 is: 00: 00: 32
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 009 is: 00: 00: 32
+HR: 0.575	NDCG: 0.323
+End. Best epoch 006: HR = 0.579, NDCG = 0.324
+The time elapse of epoch 000 is: 00: 09: 54
+HR: 0.576	NDCG: 0.324	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.576, NDCG = 0.324, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 69	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 32
+HR: 0.580	NDCG: 0.323
+The time elapse of epoch 001 is: 00: 00: 35
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 002 is: 00: 00: 35
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 003 is: 00: 00: 32
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 004 is: 00: 00: 32
+HR: 0.575	NDCG: 0.322
+The time elapse of epoch 005 is: 00: 00: 32
+HR: 0.576	NDCG: 0.323
+The time elapse of epoch 006 is: 00: 00: 31
+HR: 0.575	NDCG: 0.322
+The time elapse of epoch 007 is: 00: 00: 31
+HR: 0.576	NDCG: 0.322
+The time elapse of epoch 008 is: 00: 00: 31
+HR: 0.575	NDCG: 0.322
+The time elapse of epoch 009 is: 00: 00: 32
+HR: 0.577	NDCG: 0.322
+End. Best epoch 000: HR = 0.580, NDCG = 0.323
+The time elapse of epoch 000 is: 00: 10: 08
+HR: 0.582	NDCG: 0.324	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.582, NDCG = 0.324, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 70	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 34
+HR: 0.581	NDCG: 0.323
+The time elapse of epoch 001 is: 00: 00: 34
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 36
+HR: 0.577	NDCG: 0.321
+The time elapse of epoch 003 is: 00: 00: 34
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 004 is: 00: 00: 32
+HR: 0.575	NDCG: 0.323
+The time elapse of epoch 005 is: 00: 00: 33
+HR: 0.577	NDCG: 0.325
+The time elapse of epoch 006 is: 00: 00: 38
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 007 is: 00: 00: 33
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 008 is: 00: 00: 33
+HR: 0.575	NDCG: 0.321
+The time elapse of epoch 009 is: 00: 00: 30
+HR: 0.580	NDCG: 0.324
+End. Best epoch 000: HR = 0.581, NDCG = 0.323
+The time elapse of epoch 000 is: 00: 09: 33
+HR: 0.577	NDCG: 0.322	POISON_HR: 0.004	
+End. Best epoch 000: HR = 0.577, NDCG = 0.322, POISON_HR = 0.004
+#############################################################################
+#########################	INSERTING FAKE USER 71	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 31
+HR: 0.582	NDCG: 0.325
+The time elapse of epoch 001 is: 00: 00: 34
+HR: 0.577	NDCG: 0.321
+The time elapse of epoch 002 is: 00: 00: 31
+HR: 0.580	NDCG: 0.326
+The time elapse of epoch 003 is: 00: 00: 33
+HR: 0.575	NDCG: 0.321
+The time elapse of epoch 004 is: 00: 00: 31
+HR: 0.583	NDCG: 0.326
+The time elapse of epoch 005 is: 00: 00: 31
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 32
+HR: 0.575	NDCG: 0.321
+The time elapse of epoch 007 is: 00: 00: 35
+HR: 0.573	NDCG: 0.320
+The time elapse of epoch 008 is: 00: 00: 36
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 009 is: 00: 00: 34
+HR: 0.573	NDCG: 0.322
+End. Best epoch 004: HR = 0.583, NDCG = 0.326
+The time elapse of epoch 000 is: 00: 09: 59
+HR: 0.577	NDCG: 0.325	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.577, NDCG = 0.325, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 72	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 31
+HR: 0.574	NDCG: 0.320
+The time elapse of epoch 001 is: 00: 00: 32
+HR: 0.576	NDCG: 0.320
+The time elapse of epoch 002 is: 00: 00: 33
+HR: 0.574	NDCG: 0.320
+The time elapse of epoch 003 is: 00: 00: 33
+HR: 0.573	NDCG: 0.317
+The time elapse of epoch 004 is: 00: 00: 31
+HR: 0.575	NDCG: 0.322
+The time elapse of epoch 005 is: 00: 00: 31
+HR: 0.576	NDCG: 0.322
+The time elapse of epoch 006 is: 00: 00: 33
+HR: 0.573	NDCG: 0.322
+The time elapse of epoch 007 is: 00: 00: 32
+HR: 0.576	NDCG: 0.320
+The time elapse of epoch 008 is: 00: 00: 30
+HR: 0.581	NDCG: 0.324
+The time elapse of epoch 009 is: 00: 00: 33
+HR: 0.579	NDCG: 0.323
+End. Best epoch 008: HR = 0.581, NDCG = 0.324
+The time elapse of epoch 000 is: 00: 09: 40
+HR: 0.579	NDCG: 0.324	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.579, NDCG = 0.324, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 73	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 34
+HR: 0.577	NDCG: 0.323
+The time elapse of epoch 001 is: 00: 00: 34
+HR: 0.575	NDCG: 0.322
+The time elapse of epoch 002 is: 00: 00: 30
+HR: 0.578	NDCG: 0.321
+The time elapse of epoch 003 is: 00: 00: 34
+HR: 0.574	NDCG: 0.324
+The time elapse of epoch 004 is: 00: 00: 31
+HR: 0.574	NDCG: 0.321
+The time elapse of epoch 005 is: 00: 00: 32
+HR: 0.575	NDCG: 0.322
+The time elapse of epoch 006 is: 00: 00: 32
+HR: 0.576	NDCG: 0.322
+The time elapse of epoch 007 is: 00: 00: 38
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 008 is: 00: 00: 32
+HR: 0.578	NDCG: 0.322
+The time elapse of epoch 009 is: 00: 00: 31
+HR: 0.580	NDCG: 0.321
+End. Best epoch 009: HR = 0.580, NDCG = 0.321
+The time elapse of epoch 000 is: 00: 09: 37
+HR: 0.579	NDCG: 0.318	POISON_HR: 0.004	
+End. Best epoch 000: HR = 0.579, NDCG = 0.318, POISON_HR = 0.004
+#############################################################################
+#########################	INSERTING FAKE USER 74	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 31
+HR: 0.576	NDCG: 0.319
+The time elapse of epoch 001 is: 00: 00: 32
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 002 is: 00: 00: 35
+HR: 0.573	NDCG: 0.321
+The time elapse of epoch 003 is: 00: 00: 32
+HR: 0.573	NDCG: 0.316
+The time elapse of epoch 004 is: 00: 00: 33
+HR: 0.576	NDCG: 0.320
+The time elapse of epoch 005 is: 00: 00: 32
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 006 is: 00: 00: 33
+HR: 0.576	NDCG: 0.320
+The time elapse of epoch 007 is: 00: 00: 32
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 008 is: 00: 00: 31
+HR: 0.585	NDCG: 0.323
+The time elapse of epoch 009 is: 00: 00: 34
+HR: 0.573	NDCG: 0.320
+End. Best epoch 008: HR = 0.585, NDCG = 0.323
+The time elapse of epoch 000 is: 00: 09: 36
+HR: 0.581	NDCG: 0.322	POISON_HR: 0.004	
+End. Best epoch 000: HR = 0.581, NDCG = 0.322, POISON_HR = 0.004
+#############################################################################
+#########################	INSERTING FAKE USER 75	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 32
+HR: 0.579	NDCG: 0.322
+The time elapse of epoch 001 is: 00: 00: 35
+HR: 0.578	NDCG: 0.322
+The time elapse of epoch 002 is: 00: 00: 32
+HR: 0.578	NDCG: 0.321
+The time elapse of epoch 003 is: 00: 00: 31
+HR: 0.579	NDCG: 0.320
+The time elapse of epoch 004 is: 00: 00: 35
+HR: 0.582	NDCG: 0.323
+The time elapse of epoch 005 is: 00: 00: 36
+HR: 0.577	NDCG: 0.320
+The time elapse of epoch 006 is: 00: 00: 32
+HR: 0.575	NDCG: 0.320
+The time elapse of epoch 007 is: 00: 00: 33
+HR: 0.573	NDCG: 0.320
+The time elapse of epoch 008 is: 00: 00: 31
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 009 is: 00: 00: 31
+HR: 0.577	NDCG: 0.322
+End. Best epoch 004: HR = 0.582, NDCG = 0.323
+The time elapse of epoch 000 is: 00: 09: 35
+HR: 0.577	NDCG: 0.320	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.577, NDCG = 0.320, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 76	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 31
+HR: 0.576	NDCG: 0.320
+The time elapse of epoch 001 is: 00: 00: 31
+HR: 0.581	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 32
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 003 is: 00: 00: 32
+HR: 0.582	NDCG: 0.324
+The time elapse of epoch 004 is: 00: 00: 32
+HR: 0.574	NDCG: 0.321
+The time elapse of epoch 005 is: 00: 00: 34
+HR: 0.577	NDCG: 0.321
+The time elapse of epoch 006 is: 00: 00: 35
+HR: 0.579	NDCG: 0.325
+The time elapse of epoch 007 is: 00: 00: 38
+HR: 0.575	NDCG: 0.319
+The time elapse of epoch 008 is: 00: 00: 34
+HR: 0.577	NDCG: 0.324
+The time elapse of epoch 009 is: 00: 00: 32
+HR: 0.576	NDCG: 0.325
+End. Best epoch 003: HR = 0.582, NDCG = 0.324
+The time elapse of epoch 000 is: 00: 10: 00
+HR: 0.579	NDCG: 0.323	POISON_HR: 0.004	
+End. Best epoch 000: HR = 0.579, NDCG = 0.323, POISON_HR = 0.004
+#############################################################################
+#########################	INSERTING FAKE USER 77	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 34
+HR: 0.575	NDCG: 0.319
+The time elapse of epoch 001 is: 00: 00: 33
+HR: 0.581	NDCG: 0.321
+The time elapse of epoch 002 is: 00: 00: 37
+HR: 0.574	NDCG: 0.319
+The time elapse of epoch 003 is: 00: 00: 34
+HR: 0.575	NDCG: 0.321
+The time elapse of epoch 004 is: 00: 00: 32
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 005 is: 00: 00: 32
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 30
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 007 is: 00: 00: 31
+HR: 0.576	NDCG: 0.322
+The time elapse of epoch 008 is: 00: 00: 31
+HR: 0.576	NDCG: 0.321
+The time elapse of epoch 009 is: 00: 00: 30
+HR: 0.581	NDCG: 0.323
+End. Best epoch 001: HR = 0.581, NDCG = 0.321
+The time elapse of epoch 000 is: 00: 09: 48
+HR: 0.580	NDCG: 0.326	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.580, NDCG = 0.326, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 78	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 31
+HR: 0.573	NDCG: 0.321
+The time elapse of epoch 001 is: 00: 00: 33
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 002 is: 00: 00: 30
+HR: 0.576	NDCG: 0.325
+The time elapse of epoch 003 is: 00: 00: 33
+HR: 0.578	NDCG: 0.325
+The time elapse of epoch 004 is: 00: 00: 33
+HR: 0.572	NDCG: 0.320
+The time elapse of epoch 005 is: 00: 00: 32
+HR: 0.580	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 31
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 007 is: 00: 00: 32
+HR: 0.575	NDCG: 0.322
+The time elapse of epoch 008 is: 00: 00: 32
+HR: 0.579	NDCG: 0.325
+The time elapse of epoch 009 is: 00: 00: 33
+HR: 0.575	NDCG: 0.322
+End. Best epoch 005: HR = 0.580, NDCG = 0.324
+The time elapse of epoch 000 is: 00: 09: 51
+HR: 0.576	NDCG: 0.321	POISON_HR: 0.004	
+End. Best epoch 000: HR = 0.576, NDCG = 0.321, POISON_HR = 0.004
+#############################################################################
+#########################	INSERTING FAKE USER 79	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 33
+HR: 0.573	NDCG: 0.320
+The time elapse of epoch 001 is: 00: 00: 36
+HR: 0.572	NDCG: 0.322
+The time elapse of epoch 002 is: 00: 00: 34
+HR: 0.574	NDCG: 0.323
+The time elapse of epoch 003 is: 00: 00: 37
+HR: 0.573	NDCG: 0.322
+The time elapse of epoch 004 is: 00: 00: 35
+HR: 0.573	NDCG: 0.323
+The time elapse of epoch 005 is: 00: 00: 33
+HR: 0.577	NDCG: 0.321
+The time elapse of epoch 006 is: 00: 00: 35
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 007 is: 00: 00: 33
+HR: 0.574	NDCG: 0.320
+The time elapse of epoch 008 is: 00: 00: 37
+HR: 0.573	NDCG: 0.318
+The time elapse of epoch 009 is: 00: 00: 34
+HR: 0.577	NDCG: 0.321
+End. Best epoch 006: HR = 0.579, NDCG = 0.323
+The time elapse of epoch 000 is: 00: 09: 51
+HR: 0.573	NDCG: 0.317	POISON_HR: 0.004	
+End. Best epoch 000: HR = 0.573, NDCG = 0.317, POISON_HR = 0.004
+#############################################################################
+#########################	INSERTING FAKE USER 80	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 33
+HR: 0.574	NDCG: 0.319
+The time elapse of epoch 001 is: 00: 00: 34
+HR: 0.574	NDCG: 0.322
+The time elapse of epoch 002 is: 00: 00: 32
+HR: 0.578	NDCG: 0.324
+The time elapse of epoch 003 is: 00: 00: 31
+HR: 0.575	NDCG: 0.320
+The time elapse of epoch 004 is: 00: 00: 34
+HR: 0.573	NDCG: 0.321
+The time elapse of epoch 005 is: 00: 00: 35
+HR: 0.576	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 34
+HR: 0.573	NDCG: 0.320
+The time elapse of epoch 007 is: 00: 00: 33
+HR: 0.576	NDCG: 0.320
+The time elapse of epoch 008 is: 00: 00: 32
+HR: 0.578	NDCG: 0.322
+The time elapse of epoch 009 is: 00: 00: 32
+HR: 0.581	NDCG: 0.322
+End. Best epoch 009: HR = 0.581, NDCG = 0.322
+The time elapse of epoch 000 is: 00: 09: 11
+HR: 0.581	NDCG: 0.326	POISON_HR: 0.003	
+End. Best epoch 000: HR = 0.581, NDCG = 0.326, POISON_HR = 0.003
+#############################################################################
+#########################	INSERTING FAKE USER 81	#########################
+#############################################################################
+
+The time elapse of epoch 000 is: 00: 00: 33
+HR: 0.579	NDCG: 0.320
+The time elapse of epoch 001 is: 00: 00: 33
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 002 is: 00: 00: 32
+HR: 0.579	NDCG: 0.324
+The time elapse of epoch 003 is: 00: 00: 34
+HR: 0.578	NDCG: 0.323
+The time elapse of epoch 004 is: 00: 00: 33
+HR: 0.579	NDCG: 0.323
+The time elapse of epoch 005 is: 00: 00: 33
+HR: 0.582	NDCG: 0.324
+The time elapse of epoch 006 is: 00: 00: 40
+HR: 0.580	NDCG: 0.323
+The time elapse of epoch 007 is: 00: 00: 36
+HR: 0.577	NDCG: 0.322
+The time elapse of epoch 008 is: 00: 00: 32
+HR: 0.578	NDCG: 0.326
+The time elapse of epoch 009 is: 00: 00: 31
+HR: 0.572	NDCG: 0.318
+End. Best epoch 005: HR = 0.582, NDCG = 0.324
