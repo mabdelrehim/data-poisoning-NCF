@@ -1,4 +1,13 @@
-# NCF
+
+
+# Data Poisonning Attack on Deep Learning Based Recommendation Systems
+
+This is an implementation of the attack as described in "Data Poisoning Attack on Deep Learning Based Recommender Systems" (Huang et al. NDSS 2021)
+
+
+============================================================================================================================================================
+
+## NCF
 ### A pytorch GPU implementation of He et al. "Neural Collaborative Filtering" at WWW'17
 
 Note that I use the two sub datasets provided by Xiangnan's [repo](https://github.com/hexiangnan/neural_collaborative_filtering/tree/master/Data).
